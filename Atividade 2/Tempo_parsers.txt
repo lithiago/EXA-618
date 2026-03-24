@@ -1,0 +1,5 @@
+SAX:	
+Tempo total: 0.15908432006835938
+
+DOM:
+Tempo total: 0.04712843894958496
