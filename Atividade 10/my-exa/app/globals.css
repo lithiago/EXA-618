@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* Centraliza os elementos na horizontal */
+  text-align: center;     /* Centraliza os textos comuns (como o h1 e o "Loading...") */
+  max-width: 800px;       /* Limita a largura máxima para o conteúdo não espalhar muito */
+  margin: 0 auto;
+}
+
+table {
+  margin: 20px auto 0 auto; 
+  text-align: left;       
+}
+
+/* Remove a margem padrão do form para não desalinhá-lo */
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  background: black;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc; /* Cor cinza suave para a borda */
+  border-radius: 4px;     /* Arredonda levemente os cantos */
+  padding: 6px 10px;      /* Dá um espaçamento interno para o texto não colar na borda */
+  font-size: 14px;        /* Tamanho do texto dentro do input */
+  width: 100%;            /* Faz o input ocupar toda a largura disponível */
+  max-width: 300px;       /* Define um limite de largura para não ficar gigante (ajuste como quiser) */
+  
+}
+
+/* Opcional: Estilo quando o usuário clica para digitar */
+input[type="text"]:focus {
+  border-color: #0070f3;  /* Muda a borda para azul ao focar */
+  outline: none;          /* Remove a bordinha preta padrão do navegador */
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+body {
+  padding: 5px
+}
+label {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+th {
+  padding-top: 10px;
+}
+td {
+  padding: 2px;
+  padding-right: 40px;
+}
